@@ -1,0 +1,107 @@
+[
+  {
+    "name": "arXiv cs.IR",
+    "feedUrl": "https://rss.arxiv.org/rss/cs.IR",
+    "type": "rss",
+    "coverage": ["信息检索", "BM25/LTR", "检索评估"],
+    "limit": 30
+  },
+  {
+    "name": "Elastic Blog",
+    "feedUrl": "https://www.elastic.co/blog/feed",
+    "type": "rss",
+    "coverage": ["搜索工程", "BM25/相关性", "Elasticsearch"],
+    "limit": 20
+  },
+  {
+    "name": "OpenSearch Blog",
+    "feedUrl": "https://opensearch.org/blog/feed/",
+    "type": "rss",
+    "coverage": ["开源搜索", "相关性工程", "向量检索"],
+    "limit": 15
+  },
+  {
+    "name": "Weaviate Blog",
+    "feedUrl": "https://weaviate.io/blog/rss.xml",
+    "type": "rss",
+    "coverage": ["向量数据库", "hybrid search", "RAG"],
+    "limit": 15
+  },
+  {
+    "name": "Vespa Blog",
+    "feedUrl": "https://blog.vespa.ai/feed.xml",
+    "type": "rss",
+    "coverage": ["大规模搜索", "ANN/排序", "检索系统"],
+    "limit": 15
+  },
+  {
+    "name": "Apache Solr",
+    "feedUrl": "https://solr.apache.org/feeds/all.atom.xml",
+    "type": "rss",
+    "coverage": ["倒排索引", "Solr/Lucene", "全文检索"],
+    "limit": 10
+  },
+  {
+    "name": "ClickHouse Blog",
+    "feedUrl": "https://clickhouse.com/rss.xml",
+    "type": "rss",
+    "coverage": ["ClickHouse", "全文/向量", "分析型存储"],
+    "limit": 15
+  },
+  {
+    "name": "LlamaIndex Blog",
+    "feedUrl": "https://medium.com/feed/llamaindex-blog",
+    "type": "rss",
+    "coverage": ["RAG编排", "检索管道", "评估"],
+    "limit": 15
+  },
+  {
+    "name": "deepset / Haystack",
+    "feedUrl": "https://medium.com/feed/deepset-ai",
+    "type": "rss",
+    "coverage": ["Haystack", "生产RAG", "检索管道"],
+    "limit": 15
+  },
+  {
+    "name": "Lilian Weng",
+    "feedUrl": "https://lilianweng.github.io/index.xml",
+    "type": "rss",
+    "coverage": ["LLM综述", "embedding/RAG", "研究笔记"],
+    "limit": 10
+  },
+  {
+    "name": "Sebastian Ruder",
+    "feedUrl": "https://ruder.io/rss/",
+    "type": "rss",
+    "coverage": ["NLP综述", "迁移学习", "表示学习"],
+    "limit": 10
+  },
+  {
+    "name": "SIGIR",
+    "feedUrl": "https://sigir.org/feed/",
+    "type": "rss",
+    "coverage": ["IR顶会", "检索学术", "社区动态"],
+    "limit": 10
+  },
+  {
+    "name": "Google Research Blog",
+    "feedUrl": "https://blog.research.google/atom.xml",
+    "type": "rss",
+    "coverage": ["Google研究", "检索/NLP", "系统论文"],
+    "limit": 15
+  },
+  {
+    "name": "HN Search IR",
+    "feedUrl": "https://hnrss.org/newest?q=BM25%20OR%20HNSW%20OR%20rerank%20OR%20%22hybrid%20search%22%20OR%20%22information%20retrieval%22&count=20",
+    "type": "rss",
+    "coverage": ["检索讨论", "HNSW/BM25", "工程实践"],
+    "limit": 20
+  },
+  {
+    "name": "arXiv cs.AI",
+    "feedUrl": "https://export.arxiv.org/rss/cs.AI",
+    "type": "rss",
+    "coverage": ["AI论文", "智能体/规划", "通用方法"],
+    "limit": 20
+  }
+]
