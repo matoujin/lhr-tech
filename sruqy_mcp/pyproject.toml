@@ -1,0 +1,14 @@
+[project]
+name = "sruqy-mcp-client"
+version = "0.1.0"
+description = "CLI client for the sruqy-daily-updates MCP (思如泉涌每日市场信号)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+sruqy-daily = "sruqy_mcp_client:main"
+
+[build-system]
+requires = ["uv_build>=0.11.29,<0.12.0"]
+build-backend = "uv_build"
