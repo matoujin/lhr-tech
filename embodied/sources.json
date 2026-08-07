@@ -1,0 +1,163 @@
+{
+  "title": "具身技术资源索引",
+  "updated": "2026-08-07",
+  "sections": [
+    {
+      "id": "attacks",
+      "name": "具身攻击",
+      "items": [
+        {
+          "name": "越狱的宇树机器狗（深蓝）",
+          "url": "https://mp.weixin.qq.com/s/0XOoNyCRadLr6GvdhkmEYg",
+          "tags": ["unitree", "jailbreak", "media"]
+        },
+        {
+          "name": "Kinetic Prompt Injection (Black Hat USA 2026)",
+          "url": "https://i.blackhat.com/BH-USA-26/Presentations/BH'26_Kinetic_Prompt_Injection.pdf",
+          "tags": ["prompt-injection", "go2", "blackhat"]
+        },
+        {
+          "name": "UniPwn",
+          "url": "https://github.com/Bin4ry/UniPwn",
+          "tags": ["unitree", "ble", "cve"]
+        },
+        {
+          "name": "无人车安全-攻击面分析",
+          "url": null,
+          "note": "提纲见 embodied/README.md §1.3",
+          "tags": ["av", "attack-surface"]
+        }
+      ]
+    },
+    {
+      "id": "os-runtime",
+      "name": "具身实现/操作系统",
+      "items": [
+        {
+          "name": "UniTEABag (Unitree OTA UPK)",
+          "url": "https://github.com/Bin4ry/UniTEABag",
+          "tags": ["unitree", "ota"]
+        },
+        {
+          "name": "go2_motor_analysis",
+          "url": "https://github.com/thomasfla/go2_motor_analysis/",
+          "tags": ["unitree", "motor", "re"]
+        },
+        {
+          "name": "Link-U OS (灵渠)",
+          "url": "https://github.com/Link-U-OS",
+          "tags": ["agibot", "os"]
+        },
+        {
+          "name": "AimRT",
+          "url": "https://github.com/AimRT",
+          "tags": ["runtime", "agibot"]
+        },
+        {
+          "name": "Agibot World",
+          "url": "https://github.com/OpenDriveLab/Agibot-World",
+          "tags": ["dataset", "agibot"]
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "VLA/VLM",
+      "items": [
+        {
+          "name": "NVIDIA Cosmos 3",
+          "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+          "tags": ["world-model", "nvidia"]
+        },
+        {
+          "name": "Isaac GR00T",
+          "url": "https://developer.nvidia.com/isaac/gr00t",
+          "tags": ["humanoid", "nvidia"]
+        },
+        {
+          "name": "π0",
+          "url": "https://www.physicalintelligence.company/",
+          "tags": ["vla", "pi"]
+        },
+        {
+          "name": "OpenVLA",
+          "url": "https://openvla.github.io/",
+          "tags": ["vla", "open-source"]
+        },
+        {
+          "name": "UnifoLM-VLA-0",
+          "url": "https://github.com/unitreerobotics/unifolm-vla",
+          "tags": ["vla", "unitree"]
+        },
+        {
+          "name": "RynnBrain",
+          "url": "https://github.com/alibaba-damo-academy/RynnBrain",
+          "tags": ["vla", "alibaba"]
+        },
+        {
+          "name": "LingBot-VLA",
+          "url": "https://github.com/Robbyant/lingbot-vla/",
+          "tags": ["vla"]
+        },
+        {
+          "name": "Xiaomi-Robotics-0",
+          "url": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-0",
+          "tags": ["vla", "xiaomi"]
+        },
+        {
+          "name": "Hy-VLA",
+          "url": "https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA",
+          "tags": ["vla", "tencent"]
+        }
+      ]
+    },
+    {
+      "id": "platforms",
+      "name": "具身平台",
+      "items": [
+        {
+          "name": "腾讯 Tairos",
+          "url": "https://tairos.tencent.com/",
+          "docs": "https://tairos.tencent.com/docs",
+          "tags": ["platform", "tencent"]
+        },
+        {
+          "name": "智元 灵心",
+          "url": "https://linksoul.agibot.com/",
+          "tags": ["platform", "agibot", "interaction"]
+        },
+        {
+          "name": "智元 灵创",
+          "url": "https://linkcraft.agibot.com/",
+          "tags": ["platform", "agibot", "motion"]
+        },
+        {
+          "name": "智元 精灵 Genie Studio",
+          "url": "https://genie.agibot.com/geniestudio",
+          "tags": ["platform", "agibot", "task"]
+        },
+        {
+          "name": "Isaac Sim",
+          "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/index.html",
+          "tags": ["sim", "nvidia"]
+        },
+        {
+          "name": "MuJoCo",
+          "url": "https://mujoco.org/",
+          "tags": ["sim", "physics"]
+        },
+        {
+          "name": "RoboTwin",
+          "url": "https://robotwin-platform.github.io/",
+          "repo": "https://github.com/RoboTwin-Platform/RoboTwin",
+          "tags": ["sim", "benchmark"]
+        },
+        {
+          "name": "SAPIEN / ManiSkill",
+          "url": "https://sapien.ucsd.edu/",
+          "tags": ["sim", "manipulation"]
+        }
+      ]
+    }
+  ]
+}
