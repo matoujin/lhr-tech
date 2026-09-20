@@ -1,0 +1,28 @@
+[project]
+name = "tesla-readonly"
+version = "0.1.0"
+description = "Read-only Tesla Owner API ingest (refresh token, no vehicle commands)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx[http2]>=0.28.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+]
+
+[project.scripts]
+tesla-readonly = "tesla_readonly.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tesla_readonly"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
